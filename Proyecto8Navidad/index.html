@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/papaNoel.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="nieve">
+        <img src="./img/nieve.gif">
+        <img src="./img/nieve.gif">
+        <img src="./img/nieve.gif">
+        <img src="./img/nieve.gif">
+        <img src="./img/nieve.gif">
+        <img src="./img/nieve.gif">
+    </div>
+    <center>
+    <div class="contenedor">
+        <div class="subcontenedor">
+            <div id="mensaje"><h2>Llega navidad en</h2></div>
+        <div id="cuentaRegresiva">
+            <div class="conteni">
+                <div class="fecha">
+                    <div id="dias"></div>
+                </div>
+                <div class="fecha">
+                    <div id="horas"></div>
+                </div>
+                <div class="fecha">
+                    <div id="minutos"></div>
+                </div>
+                <div class="fecha">
+                    <div id="segundos"></div>
+                </div>
+            </div>
+        </div>
+        <div class="siglas">
+            <p>D</p>
+            <p>H</p>
+            <p>M</p>
+            <p>S</p>
+        </div>
+        <div class="botones">
+            <button id="bt1" class="boton"  onclick="play()">Play</button>
+            <button id="bt2" class="boton" onclick="pause()">Pause</button>
+        </div>
+        </div>
+        <div id="papaNoelQuieto" class="papaNoelOff"></div>
+    </div>
+    </center>
+    <div class="muñeco">
+        <img src="./img/muñeco.png">
+    </div>
+    <script src="script.js"></script>
+</body>
+</div>
+</html>

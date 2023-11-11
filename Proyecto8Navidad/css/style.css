@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgb(51, 167, 255) 57%);
+}
+
+.contenedor{
+    margin-left: 11%;
+    align-items: center;
+    display: flex;
+    width: 950px;
+    height: 600px;
+    position: relative;
+
+}
+
+.papaNoelOff{
+    width: 750px;
+    height: 550px;
+    background-image: url("../img/papanobaila.png");
+    background-repeat: no-repeat;
+    margin-top: 192px;
+    margin-left: 45px;
+}
+
+.papaNoelOff.on{
+    width: 680px;
+    height: 480px;
+    background-image: url("../img/papabaila.gif");
+    background-repeat: no-repeat;
+    margin-bottom: 149px;
+    margin-left: 15px;
+}
+.conteni{
+    display: flex;
+    justify-content: space-around;
+}
+.siglas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subcontenedor{
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+   display: flex;
+   justify-content: space-around;
+}
+
+.boton{
+    width: 100px;
+    height: 50px;
+    background: red;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 45px;
+    border: none;
+    color: white;
+}
+
+.boton.activandoHover{
+    width: 100px;
+    height: 50px;
+    background: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 45px;
+    border: none;
+    color: red;
+}
+
+h2{
+    color: red;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+#mensaje{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+
+.conteni{
+    margin: 25px 0 15px 0;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.siglas{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fecha{
+    align-items:center;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px 20px 8px 20px;
+    box-shadow: inset 0px 5px 5px 0px;
+    border: solid 2px white;
+    margin-right: 8px;
+}
+
+p{
+    margin-right: 11px;
+}
+
+.nieve{
+    position: absolute;
+}
+
+.nieve img{
+    width: 243.3px;
+    height: 200px;
+}
+
+.muñeco{
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+}
+.muñeco img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
