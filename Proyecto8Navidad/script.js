@@ -61,7 +61,7 @@ function cuentaRegresiva(tiempoFaltante,mensaje){
     }, 1000)
 };
 
-cuentaRegresiva('NOV 11 2023 1:35:00 GMT-0500', 'Ya! Feliz Navidad!');
+cuentaRegresiva('DEC 25 2023 00:00:00 GMT-0500', 'Ya! Feliz Navidad!');
 
 function play() {
     if (papaNoelQuieto == "on") {
