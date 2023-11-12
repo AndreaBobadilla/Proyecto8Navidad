@@ -1,8 +1,5 @@
 let papaNoel = "off";
 let papaNoelQuieto = document.getElementById("papaNoelQuieto");
-const repro = document.getElementById("bt1")
-const pau = document.getElementById("bt2")
-
 let botonAudio = new Audio ('./sound/musicanavi.mp3');
 
 function obtenerTiempoFaltante(fechaLimite) {
@@ -48,10 +45,6 @@ function cuentaRegresiva(tiempoFaltante,mensaje){
             segundos.innerHTML = "00" 
             papaNoelQuieto = "on";
             console.log("Entro")
-            repro.classList.remove("off");
-            repro.classList.add("on")
-            pau.classList.remove("off");
-            pau.classList.add("on")
 
             document.querySelectorAll('.boton').forEach(button => {
                 button.classList.add('activandoHover');
